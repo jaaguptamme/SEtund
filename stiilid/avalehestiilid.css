@@ -6,3 +6,7 @@ div>h2{
     width: 40%;
     float: left;
 }
+div>*{
+    float: left;
+    width: 33%;
+}
