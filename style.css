@@ -1,0 +1,25 @@
+.pildivärv {
+    border-color: #ea2b15; 
+    border-width: thick; 
+    border-style: double;
+}
+
+.columns {column-count: 2; 
+    column-gap: 3em;
+}
+
+.taustavärv {
+    background-color: rgb(250, 211, 248)
+}
+
+.pealkiri1 {
+    color:#4c8107; 
+    font-family:Calibra; 
+    font-size:60px;
+}
+
+.tabelipealkiri {
+    color: crimson; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
