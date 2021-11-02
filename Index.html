@@ -3,7 +3,7 @@
     <title>Avaleht</title>
 </head>
 <html>
-<body>
+<body background="Taustapilt.jpg">
     <link rel="stylesheet" href="stiilid/avalehestiilid.css">
     <h1 class="pealkiri">Marie ilutuba</h1>
     
@@ -16,9 +16,29 @@
         </div>
         <div class="parem">
             <div>
-                <img src="pildid/fb.png"/>
-                <img src="pildid/ig.jpg"/>
-                <a href="https://www.tumblr.com/blog/view/braxtonsworld"><img src="pildid/t.png"/></a>
+                <img class="fb" src="pildid/fb.png"/>
+                <img class="ig" src="pildid/ig.jpg"/>
+                <a class="t" href="https://www.tumblr.com/blog/view/braxtonsworld"><img src="pildid/t.png"/></a>
+            </div>
+            <div> 
+                <h3>My Google Maps Demo</h3>
+                <!--The div element for the map -->
+                <div id="map"></div>
+
+                <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+                <script
+                src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+                async
+                ></script>
+            </div>
+            <div>
+                <h2>
+                    Aadress:Ranna tee 2, Haapsalu
+                </h2>
+                <h2>
+                    Oleme avatud: E-P eelneval kokkuleppel
+                </h2>
+                
             </div>
         </div>
     </div>
